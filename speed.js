@@ -15,7 +15,7 @@ function speedDetector() {
             demeritPoints = Math.floor((speed - 70) / 5);
             
             // Display demerit points
-            output.textContent = 'Drivers points = ' + demeritPoints;
+            console.log('Drivers points = ' + demeritPoints) ;
             
             // Check if license should be suspended
             if (demeritPoints > 12) {
